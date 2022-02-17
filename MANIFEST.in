@@ -1,0 +1,6 @@
+include CHANGELOG
+include LICENSE
+include README.md
+recursive-include StAP *.png *.json
+recursive-include tests *.zip *.md *.py *.txt
+prune docs/_build

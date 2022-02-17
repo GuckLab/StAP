@@ -1,0 +1,27 @@
+
+StAP/__pycache__/
+*.idea
+*.egg-info
+
+# Jupyter Notebook
+.ipynb_checkpoints
+venv/
+*.pyc
+
+.user_config.txt
+
+# image files
+*.png
+*.tif
+*.tiff
+*.jpg
+
+# excel-type
+*.csv
+*.tsv
+
+# zip files
+*.zip
+
+# auto versioning file
+_version_save.py

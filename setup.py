@@ -35,6 +35,8 @@ setup(
         "h5py>=3.0.0",
         "numpy>=1.17.0",
         "scipy>=0.14.0",
+        "jupyter",
+        "matplotlib",
         ],
     python_requires=">=3.7",
     keywords=["template"],

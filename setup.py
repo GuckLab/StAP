@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from os.path import exists, dirname, realpath
+from os.path import exists
 from setuptools import setup, find_packages
-import sys
 
 
-# temaplte originally by Eoghan O'Connell at
+# templalte originally by Eoghan O'Connell at
 #   https://github.com/PinkShnack/template_python_repo
 maintainer = "Eoghan O'Connell"
 maintainer_email = "eoghan.oconnell@mpl.mpg.de"
@@ -14,9 +13,7 @@ name = "StAP"
 year = "2022"
 url = 'https://github.com/GuckLab/StAP'
 license = "MIT"
-
-sys.path.insert(0, realpath(dirname(__file__))+"/"+name)
-from _version import version  # noqa: E402
+version = "0.1.0"
 
 
 setup(

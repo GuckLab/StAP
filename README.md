@@ -15,9 +15,10 @@ StAP contains resources, examples and tutorials on statistics and probability.
 You can run any jupyter notebooks in the browser by clicking on the below
 button:
 
-**button to be added**
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GuckLab/StAP/HEAD)
 
-There are Python and Wolfram Mathematica versions of each notebook.
+There are currently Python versions of each notebook. We wish to have
+Wolfram Mathematica versions also available in the future.
 
 
 ### Using Jupyter Notebooks
@@ -104,27 +105,3 @@ and lint your code with flake8:
 flake8 StAP tests
 ```
 -->
-
-## Releasing New Versions
-
-1. Create a new tag:
-
-```bash
-git tag -a "0.1.0" -m "new release"  
-git push --tags origin
-```
-
-At this point, users will be able to install this package with the description
-provided at the top of this readme.
-
-2. Create a distribution package e.g. ``StAP_XYZ.tar.gz`` with:
-
-```bash
-python setup.py sdist
-```
-
-3. Give the ``.tar.gz`` file to users and tell them to pip-install it with:
-
-```bash
-pip install StAP_XYZ.tar.gz
-```

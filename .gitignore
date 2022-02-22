@@ -22,6 +22,3 @@ venv/
 
 # zip files
 *.zip
-
-# auto versioning file
-_version_save.py
